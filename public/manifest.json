@@ -1,0 +1,32 @@
+{
+  "name": "El Arenalense - Portal de Negocios",
+  "short_name": "El Arenalense",
+  "description": "Los negocios de tu zona, en cartelera. Busca por nombre o elige un municipio para ver qué está en función.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1E120B",
+  "theme_color": "#1E120B",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
