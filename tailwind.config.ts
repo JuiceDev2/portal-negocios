@@ -5,12 +5,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        telon: '#14100E',
-        'telon-alto': '#1F1A16',
-        marquesina: '#E8A33D',
-        terciopelo: '#7A1F2B',
-        crema: '#F3EBDA',
-        opaco: '#9C9284',
+        telon: '#FFFFFF',
+        'telon-alto': '#EFF6FF',
+        marquesina: '#1D4ED8',
+        cielo: '#0EA5E9',
+        terciopelo: '#DC2626',
+        crema: '#1E293B',
+        opaco: '#64748B',
       },
       fontFamily: {
         marquesina: ['var(--font-display)', 'sans-serif'],

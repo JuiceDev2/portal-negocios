@@ -26,7 +26,7 @@ export default async function PaginaInicio() {
   return (
     <main className="mx-auto flex min-h-screen max-w-6xl flex-col gap-10 px-4 py-10 sm:px-8">
       <header className="text-center">
-        <p className="font-marquesina text-sm tracking-[0.3em] text-terciopelo/80">
+        <p className="font-marquesina text-sm tracking-[0.3em] text-cielo/80">
           FUNCIÓN CONTINUA
         </p>
         <h1 className="font-marquesina text-5xl tracking-wide text-marquesina sm:text-6xl">

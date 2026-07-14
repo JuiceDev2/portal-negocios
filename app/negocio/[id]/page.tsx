@@ -41,7 +41,7 @@ export default async function PaginaEspectacular({ params }: { params: { id: str
               priority
             />
           ) : (
-            <div className="flex h-full w-full items-center justify-center bg-terciopelo/30 font-marquesina text-4xl text-crema/60">
+            <div className="flex h-full w-full items-center justify-center bg-cielo/20 font-marquesina text-4xl text-crema/60">
               {negocio.nombre}
             </div>
           )}
@@ -49,7 +49,7 @@ export default async function PaginaEspectacular({ params }: { params: { id: str
         </div>
 
         <div className="px-6 pb-8 pt-4 sm:px-10">
-          <p className="font-marquesina text-sm tracking-[0.3em] text-terciopelo/80">
+          <p className="font-marquesina text-sm tracking-[0.3em] text-cielo/80">
             AHORA EN CARTELERA
           </p>
           <h1 className="font-marquesina text-4xl tracking-wide text-marquesina sm:text-5xl">

@@ -9,23 +9,23 @@
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #E8A33D33 transparent;
+  scrollbar-color: #1D4ED866 transparent;
 }
 
 body {
-  background-color: #14100E;
-  color: #F3EBDA;
+  background-color: #FFFFFF;
+  color: #1E293B;
 }
 
-/* Textura sutil de "telón" para el fondo, sin imágenes externas */
+/* Textura sutil sobre el fondo blanco, sin imágenes externas */
 .fondo-telon {
   background-image:
-    radial-gradient(circle at 20% 20%, rgba(232, 163, 61, 0.05), transparent 40%),
-    radial-gradient(circle at 80% 70%, rgba(122, 31, 43, 0.12), transparent 45%),
+    radial-gradient(circle at 20% 20%, rgba(29, 78, 216, 0.05), transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(56, 189, 248, 0.10), transparent 45%),
     repeating-linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.015) 0px,
-      rgba(255, 255, 255, 0.015) 1px,
+      rgba(15, 23, 42, 0.015) 0px,
+      rgba(15, 23, 42, 0.015) 1px,
       transparent 1px,
       transparent 14px
     );
@@ -34,7 +34,7 @@ body {
 /* Elemento firma: borde de "luces de marquesina" (foquitos) */
 .marco-marquesina {
   position: relative;
-  border: 1px solid rgba(232, 163, 61, 0.35);
+  border: 1px solid rgba(29, 78, 216, 0.35);
 }
 
 .marco-marquesina::before,
@@ -44,7 +44,7 @@ body {
   left: 0;
   right: 0;
   height: 6px;
-  background-image: radial-gradient(circle, #E8A33D 1.5px, transparent 1.6px);
+  background-image: radial-gradient(circle, #1D4ED8 1.5px, transparent 1.6px);
   background-size: 16px 6px;
   background-repeat: repeat-x;
   opacity: 0.7;
@@ -63,12 +63,12 @@ body {
 /* Perforacion tipo rollo de cine en los bordes de las pasarelas */
 .borde-rollo {
   background-image:
-    radial-gradient(circle, #14100E 3px, transparent 3.2px),
-    radial-gradient(circle, #14100E 3px, transparent 3.2px);
+    radial-gradient(circle, #FFFFFF 3px, transparent 3.2px),
+    radial-gradient(circle, #FFFFFF 3px, transparent 3.2px);
   background-position: 0 4px, 0 calc(100% - 4px);
   background-size: 22px 8px, 22px 8px;
   background-repeat: repeat-x, repeat-x;
-  background-color: #7A1F2B;
+  background-color: #38BDF8;
 }
 
 .recorte-texto {

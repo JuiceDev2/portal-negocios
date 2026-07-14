@@ -21,7 +21,7 @@ export default function PortadaNegocio({ negocio }: { negocio: NegocioTarjeta })
             className="object-cover transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
-          <div className="flex h-full w-full items-center justify-center bg-terciopelo/30 font-marquesina text-2xl tracking-wide text-crema/60">
+          <div className="flex h-full w-full items-center justify-center bg-cielo/20 font-marquesina text-2xl tracking-wide text-crema/60">
             {negocio.nombre.slice(0, 1)}
           </div>
         )}

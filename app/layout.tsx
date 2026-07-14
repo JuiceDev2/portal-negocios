@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   appleWebApp: {
     capable: true,
-    statusBarStyle: 'black-translucent',
+    statusBarStyle: 'default',
     title: 'El Arenalense',
   },
 };
@@ -40,7 +40,8 @@ export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 5,
-  themeColor: '#1E120B',
+  themeColor: '#1D4ED8',
+  colorScheme: 'light',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
