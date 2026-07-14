@@ -15,7 +15,7 @@ const body = Libre_Franklin({
 });
 
 export const metadata: Metadata = {
-  title: 'Portal de Negocios | La Marquesina',
+  title: 'Portal de Negocios | EL ARENALENSE',
   description: 'Descubre los negocios de la zona, presentados como en la marquesina de un cine.',
 };
 

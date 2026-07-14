@@ -30,7 +30,7 @@ export default async function PaginaInicio() {
           FUNCIÓN CONTINUA
         </p>
         <h1 className="font-marquesina text-5xl tracking-wide text-marquesina sm:text-6xl">
-          La Marquesina
+          EL ARENALENSE
         </h1>
         <p className="mx-auto mt-2 max-w-xl text-opaco">
           Los negocios de tu zona, en cartelera. Busca por nombre o elige un municipio para ver

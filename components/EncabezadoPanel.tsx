@@ -16,7 +16,7 @@ export default function EncabezadoPanel({ titulo }: { titulo: string }) {
   return (
     <header className="marco-marquesina mb-8 flex items-center justify-between rounded-sm bg-telon-alto/80 px-6 py-4">
       <div>
-        <p className="font-marquesina text-xs tracking-[0.3em] text-terciopelo/80">LA MARQUESINA</p>
+        <p className="font-marquesina text-xs tracking-[0.3em] text-terciopelo/80">EL ARENALENSE</p>
         <h1 className="font-marquesina text-2xl tracking-wide text-marquesina">{titulo}</h1>
       </div>
       <div className="flex items-center gap-4">
